@@ -1,0 +1,12 @@
+{
+    "Spider": {
+        "Health": 10,
+        "Name": "Spider",
+        "Damage": 1
+    },
+    "Snake": {
+        "Health": 10,
+        "Name": "Snake",
+        "Damage": 2
+    }
+}
