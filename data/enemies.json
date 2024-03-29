@@ -8,5 +8,10 @@
         "Health": 10,
         "Name": "Snake",
         "Damage": 2
+    },
+    "Goblin": {
+        "Health": 15,
+        "Name": "Goblin",
+        "Damage": 3
     }
 }

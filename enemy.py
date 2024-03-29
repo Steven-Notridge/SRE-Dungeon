@@ -3,6 +3,7 @@ import random
 class Enemy:
     def __init__(self, name, health, damage):
         self.name = name
+        self.max_hp = health
         self.health = health
         self.damage = damage
 
@@ -11,7 +12,7 @@ class Enemy:
         if self.health <= 0:
             print(f"{self.name} has been defeated!")
         else:
-            print(f"{self.name} loses {damage} hp. {self.name}'s remaining hp: {self.health}")
+            print(f"{self.name} loses {damage} hp. {self.name}'s HP: {self.health}/{self.max_hp}")
 
     def attack(self):
         attack_damage = random.randint(1, self.damage)
